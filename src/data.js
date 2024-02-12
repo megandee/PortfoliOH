@@ -8,18 +8,21 @@ export const featuredPortfolio = [
       id: 1,
       title: "SVU Detective Tinder",
       img: svuImage,
+      url: "https://github.com/megandee/svu-tinder-fe",
     },
     {
       id: 2,
       title: "PintPal",
       img:
         pintPal,
+      url: "https://github.com/MMPThree/pintpal-frontend",
     },
     {
       id: 3,
       title: "Apartment App",
       img:
         apartmentApp,
+      url: "https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz",
     },
 
   ];
