@@ -44,6 +44,23 @@
                 align-items: center;
             }
 
+            .resume-button {
+                display: inline-block;
+                padding: 10px 10px;
+                background-color: rgba(51, 50, 67, 0.976); 
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+                width: 145px;
+                text-align: center;
+                margin-top: 15px;
+              }
+              
+              .resume-button:hover {
+                background-color: rgba(51, 50, 67, 0.643);
+              }
+
             h4{
                 padding-right: 50px;
             }
@@ -90,7 +107,7 @@
             }
         }
         a {
-            position: relative;
+            // position: relative;
             left: 50%;
 
             img {
