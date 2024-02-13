@@ -33,18 +33,14 @@ export default function Portfolio() {
               setSelected={setSelected}
               id={item.id}
             />
-            {/* <a href={item.url} target="_blank" rel="noopener noreferrer"> */}
-              <img src={item.img} alt={item.title} />
-            {/* </a> */}
+              <img src={item.img} alt="" />
           </>
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            {/* <a href={d.url} target="_blank" rel="noopener noreferrer"> */}
-              <img src={d.img} alt={d.title} onClick={() => window.open(d.url, "_blank")} />
-            {/* </a> */}
+              <img src={d.img} alt="{i.title}" onClick={() => window.open(d.url, "_blank")} />
             <h3>{d.title}</h3>
           </div>
         ))}

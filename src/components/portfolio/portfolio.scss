@@ -11,6 +11,7 @@
 
     h1{ 
         font-size: 50px;
+        padding-top: 20px;
 
         @include mobile{
             font-size: 20px;
@@ -45,8 +46,8 @@
         }
         
         .item{
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: 400px;
             margin: 10px 10px;
             display: flex;
             align-items: center;
