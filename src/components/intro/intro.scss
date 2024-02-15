@@ -10,6 +10,22 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    @include mobile {
+        flex-direction: column;
+
+        img {
+            height: auto !important;
+            width: 250px !important;
+            max-width: 300px;
+            padding: 2px !important;
+        }
+
+        .left, .right {
+            flex: 1;
+        }
+
+    }
+
     .left{
         flex: 0.5;
         display: flex;
@@ -40,8 +56,31 @@
             width: 100%;
 
             @include mobile {
-                padding-left: 0;
+                // padding-left: 3px;
                 align-items: center;
+
+                h1{
+                    font-size: 35px !important;
+                    overflow: hidden !important;
+                    margin-bottom: 1px !important;
+                }
+        
+                h2 {
+                    font-size: 22px !important;
+                    text-align: center;
+                    overflow: hidden !important;
+                    padding-bottom: 4px !important;
+                    padding-right: 20px;
+                }
+        
+                h4 {
+                    text-align: center;
+                    padding-left: 5px;
+                    padding-right: 5px;
+            
+                    // margin-left: 50px;
+                    // margin-right: 10px;
+                }
             }
 
             .resume-button {
@@ -103,6 +142,20 @@
                         opacity: 0;
                     }
                 }
+
+                @include mobile {
+        flex-direction: column;
+
+        .left, .right {
+            flex: 1;
+        }
+
+        img {
+            height: auto;
+            width: 80%;
+            max-width: 300px;
+        }
+    }
 
             }
         }
