@@ -17,10 +17,17 @@ export default function Intro() {
           <h2>I'm Megan, lets work together!</h2>
           <h4>
             I am a  Full Stack developer with a love for the art of problem-solving. My tech journey has been a thrilling adventure and one that has reiterated the importance of collaboration. I thrive working with diverse teams, turning creative ideas into practical solutions. Please feel free to reach out. Let's connect via LinkedIn or contact me directly at MeganDeRisi@gmail.com 
+
+            This portfolio was created using React, JavaScript, and SCSS.
             </h4>
-            <a href={resume} rel="noopener noreferrer" className="resume-button">
-            View My Resume
+            <div className="buttons"> 
+            <a href="https://github.com/megandee/PortfoliOH" target="_blank" rel="noopener noreferrer" className="github-button">
+            View on my Github
             </a>
+            <a href={resume} rel="noopener noreferrer" className="resume-button">
+            View my Resume
+            </a>
+            </div>
         </div>
       </div>
     </div>

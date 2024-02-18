@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="wrapper">
           <div className="left">
             <a href="#intro" className="logo">
-              meggodee
+              MDeRisi
             </a>
             <div className="itemContainer">
               <LinkedIn className="icon" />
