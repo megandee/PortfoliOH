@@ -17,7 +17,8 @@ export default function Intro() {
           <h2>I'm Megan, lets work together!</h2>
           <h4>
             I am a  Full Stack developer with a love for the art of problem-solving. My tech journey has been a thrilling adventure and one that has reiterated the importance of collaboration. I thrive working with diverse teams, turning creative ideas into practical solutions. Please feel free to reach out. Let's connect via LinkedIn or contact me directly at MeganDeRisi@gmail.com 
-
+            <br />
+            <br />
             This portfolio was created using React, JavaScript, and SCSS.
             </h4>
             <div className="buttons"> 
