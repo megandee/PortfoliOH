@@ -7,24 +7,38 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "SVU Detective Tinder",
+      description: "",
+      tech: "",
       img: svuImage,
-      url: "https://github.com/megandee/svu-tinder-fe",
+      link: "https://github.com/megandee/svu-tinder-fe",
     },
     {
       id: 2,
       title: "PintPal",
+      description: "",
+      tech: "",
       img:
         pintPal,
-      url: "https://github.com/MMPThree/pintpal-frontend",
+        link: "https://github.com/MMPThree/pintpal-frontend",
     },
     {
       id: 3,
       title: "Apartment App",
+      description: "",
+      tech: "",
       img:
         apartmentApp,
-      url: "https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz",
+        link: "https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz",
     },
-
+    // {
+    //   id: 4,
+    //   title: "Apartment App",
+    //   description: "coming soon",
+    //   tech: "coming soon",
+    //   img:
+    //     apartmentApp,
+    //     link: "https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz",
+    // },
   ];
   
   export const webPortfolio = [

@@ -1,0 +1,44 @@
+@import "../../global.scss";
+
+.card-container-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // overflow: hidden;
+    width: 100%;
+    max-width: 1165px; /* Adjust this to fit three cards */
+
+    @media (max-width: 600px) {
+      flex-direction: column; // Add this line
+      align-items: center; // Add this line
+  }
+
+    > button {
+        background: transparent;
+        border: none;
+        font-size: 2em;
+        color: #333; /* Adjust color as needed */
+      }
+    
+      > button:first-of-type:before {
+        content: '❮'; /* Left arrow */
+      }
+      
+      > button:last-of-type:before {
+        content: '❯'; /* Right arrow */
+      }
+  }
+  
+  .card-container-inner {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 320px; 
+    margin-right: 20px; 
+  }
